@@ -1,0 +1,4 @@
+<div class="app" [ngClass]="{'dark-theme':darkMode,'light-theme':!darkMode}">
+    <app-navbar (modeChangeEvent)="changeMode()"></app-navbar>
+    <router-outlet></router-outlet>
+</div>

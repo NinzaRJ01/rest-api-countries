@@ -1,0 +1,19 @@
+<div class="navbar"  [ngClass]="{'dark-theme':darkMode,'light-theme':!darkMode}">
+    <div class="head">
+        Where in the world?
+    </div>
+    <div class="tail">
+        <button (click)="changeMode()">
+            <div [ngClass]="{'dark-btn-theme':darkMode,'light-btn-theme':!darkMode}">
+                <div>
+                    <fa-icon [icon]="mode_icon" [style.color]="darkMode?'white':'black'"></fa-icon>
+                </div>
+                <div>
+                    {{darkMode?"Dark Mode":"Light Mode"}}
+                </div>
+            </div>
+            
+             
+        </button>
+    </div>
+</div>

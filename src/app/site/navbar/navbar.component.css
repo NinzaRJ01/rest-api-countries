@@ -1,0 +1,25 @@
+.dark-theme{
+    color:hsl(0, 0%, 100%)
+}
+.dark-btn-theme{
+    color:hsl(0, 0%, 98%);
+}
+
+.tail>button{
+    border:none;
+    background: none;
+   
+}
+button>div{
+    width: 100px;
+    padding:4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
